@@ -1,0 +1,2 @@
+1. Country name and Flag API = https://restcountries.com/v3.1/all
+2. language API = https://libretranslate.com/languages
