@@ -6,9 +6,12 @@ import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useFetch } from "../../hooks/useFetch";
+import Lang from "./Lang";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+  const { isLoading, data } = useFetch("https://restcountries.com/v3.1/all");
 
   return (
     <header>
@@ -31,21 +34,27 @@ const Header = () => {
             </Nav>
           </div>
           <div className="slogan col-md-4">
-            <p className="slogan_content">
+            <p className="slogan_content text-muted text-center">
               It&apos;s time to Grow with Najat Solutions BD
             </p>
           </div>
           <div className="col-md-4  d-flex justify-content-end">
-            <Form.Select className="border-0 lang-select w-25">
-              <option value="1">BD</option>
-              <option value="2">En</option>
-              <option value="3">IN</option>
+            {isLoading && (
+              <img
+                className="loader"
+                src={"../../../public/images/loader.gif"}
+              />
+            )}
+            <Form.Select className="border-0 lang-select">
+              {data &&
+                data.map((country) => (
+                  <option key={country.name.common} value={country.name.common}>
+                    {country.name.common}
+                  </option>
+                ))}
             </Form.Select>
-            <Form.Select className="border-0 lang-select w-25">
-              <option value="1">English</option>
-              <option value="2">Bangla</option>
-              <option value="3">Spanish</option>
-            </Form.Select>
+
+            <Lang />
           </div>
         </div>
       </div>

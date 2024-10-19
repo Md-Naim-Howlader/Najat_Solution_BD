@@ -29,14 +29,9 @@ a {
 
 .logo {
   color: #0022fc;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-transform: uppercase;
-}
-.slogan_content {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 400;
 }
 
 .form-select:focus {
@@ -56,8 +51,22 @@ a {
 }
 .nav-link {
   text-decoration: none;
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
 }
 .nav-link.active {
   color: #0022fc !important;
   font-weight: 500;
+}
+.nav-link:hover {
+  color: #0022fc !important;
+}
+.lang-select {
+  max-width: 70%;
+}
+.loader {
+  width: 40px;
+  position: relative;
+  left: 10px;
 }
