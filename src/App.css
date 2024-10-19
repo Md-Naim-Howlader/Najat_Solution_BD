@@ -3,7 +3,7 @@
 .bg-primary {
   background-color: #0022fc;
 }
-.text-primart {
+.text-primary {
   color: #0022fc;
 }
 .bg-default {
@@ -24,6 +24,7 @@ span,
 li,
 a {
   font-family: "Roboto", serif;
+  color: #333;
 }
 
 .logo {
@@ -31,4 +32,32 @@ a {
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+.slogan_content {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.form-select:focus {
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  color: #0022fc;
+}
+.navbar-toggler:focus {
+  color: #0022fc;
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav-link.active {
+  color: #0022fc !important;
+  font-weight: 500;
 }

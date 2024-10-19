@@ -1,10 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Header from "./layout/header/Header";
+import "./styles/responsive.css";
+import MainLayout from "./layout/mainLayout/MainLayout";
+
 function App() {
   return (
     <>
-      <Header />
+      <MainLayout />
     </>
   );
 }
