@@ -2,6 +2,7 @@
   .logo {
     font-size: 1.5rem;
   }
+<<<<<<< HEAD
   .angle2 {
     right: -7px;
     top: -36px;
@@ -36,4 +37,10 @@
   .call-us {
     margin-left: 0;
   }
+=======
+  .start-project {
+  display: block;
+  
+}
+>>>>>>> 3779c5078f4f992c124a64c8ec7875ada853f984
 }

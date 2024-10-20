@@ -151,6 +151,7 @@ a {
   width: 100%;
   background: #f4ede3;
   border-radius: 100%;
+  overflow: hidden;
 }
 .triangle {
   position: absolute;
