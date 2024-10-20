@@ -2,4 +2,38 @@
   .logo {
     font-size: 1.5rem;
   }
+  .angle2 {
+    right: -7px;
+    top: -36px;
+  }
+  .angle1 {
+    left: -12px;
+    top: -39px;
+  }
+  .angle3 {
+    left: 0;
+    bottom: 0;
+  }
+  .angle4 {
+    right: 0;
+    bottom: 0;
+  }
+  .explore-btn {
+    margin-top: 40px;
+  }
+
+  .start-project {
+    margin-top: 35px;
+  }
+  .btn-project {
+    display: inline-block;
+    width: none;
+    height: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .call-us {
+    margin-left: 0;
+  }
 }

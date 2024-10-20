@@ -1,10 +1,10 @@
 const Home = () => {
   return (
     <>
-      <section className="bg-default hero">
+      <section className="bg-default hero pb-4 pb-md-0">
         <div className="container">
           <div className="row align-align-items-end pt-5 gap-md-5">
-            <div className="col-12 col-lg-6 position-relative order-2 order-md-1">
+            <div className="col-12 col-lg-6 position-relative order-2 order-md-1 mt-4 mt-md-0 ">
               <span className="welcome_msg-i"></span>
               <span className="welcomTxt">WELCOME TO OUR COMPANY</span>
               <h1 className="hero-heading">
@@ -16,11 +16,9 @@ const Home = () => {
                 objectives.
               </p>
               <button className="explore-btn btn">Explore Now</button>
-              <div className="start-project">
-                <button className="btn btn-primary btn-project">
-                  Start a Projects
-                </button>
-                <div className="call-us">
+              <div className="start-project d-md-flex">
+                <button className="btn-project">Start a Projects</button>
+                <div className="call-us mt-4 mt-md-0">
                   <a
                     className="text-primary text-decoration-none"
                     href="tel:+1231234123"

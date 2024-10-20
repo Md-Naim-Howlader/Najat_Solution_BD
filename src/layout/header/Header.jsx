@@ -53,7 +53,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navbar expand="lg" className="bg-default shadow shadow-md-none">
+      <Navbar expand="lg" className="bg-default">
         <Container>
           <NavLink className="d-flex navbar-brand  align-items-center text-decoration-none ">
             <img
