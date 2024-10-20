@@ -39,12 +39,7 @@ const Header = () => {
             </p>
           </div>
           <div className="col-md-4  d-flex justify-content-end">
-            {isLoading && (
-              <img
-                className="loader"
-                src={"../../../public/images/loader.gif"}
-              />
-            )}
+            {isLoading && <img className="loader" src={"images/loader.gif"} />}
             <Form.Select className="border-0 lang-select">
               {data &&
                 data.map((country) => (
@@ -58,7 +53,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navbar expand="lg" className="bg-default">
+      <Navbar expand="lg" className="bg-default shadow shadow-md-none">
         <Container>
           <NavLink className="d-flex navbar-brand  align-items-center text-decoration-none ">
             <img

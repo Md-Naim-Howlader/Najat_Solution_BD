@@ -5,9 +5,7 @@ const Lang = () => {
   const { isLoading, data } = useFetch("https://libretranslate.com/languages");
   return (
     <>
-      {isLoading && (
-        <img className="loader" src={"../../../public/images/loader.gif"} />
-      )}
+      {isLoading && <img className="loader" src={"images/loader.gif"} />}
       <Form.Select className="border-0 lang-select">
         {data &&
           data.map((lang) => (
