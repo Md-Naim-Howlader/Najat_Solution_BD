@@ -4,17 +4,34 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 import Lang from "./Lang";
+import { useContext, useEffect, useState } from "react";
+import { Context } from "../../context/Context";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
+  const { toggle, setToggle } = useContext(Context);
   const { isLoading, data } = useFetch("https://restcountries.com/v3.1/all");
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    if (scrollTop > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <header>
+    <header className={isScrolled ? "header scrolled" : "header"}>
       <div className="header-top d-none d-lg-block bg-white">
         <div className="container-fluid row align-items-center">
           <div className="social_icon col-md-4">
@@ -53,7 +70,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navbar expand="lg" className="bg-default">
+      <Navbar expand="lg" className="bg-default navigation">
         <Container>
           <NavLink className="d-flex navbar-brand  align-items-center text-decoration-none ">
             <img

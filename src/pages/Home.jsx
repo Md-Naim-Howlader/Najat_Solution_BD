@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <>
-      <section className="bg-default hero pb-4 pb-md-0">
+    <div className="bg-default">
+      <section className=" hero pb-4 pb-md-0">
         <div className="container">
           <div className="row align-align-items-end pt-5 gap-md-5">
             <div className="col-12 col-lg-6 position-relative order-2 order-md-1 mt-4 mt-md-0 ">
@@ -49,21 +49,106 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-        repellendus, voluptatem exercitationem aliquam minus sint, voluptatibus
-        facere facilis debitis explicabo neque, rerum odio sed necessitatibus.
-        Vero voluptatum similique odio quidem sapiente necessitatibus
-        reprehenderit et. Deleniti quidem accusantium est dolores. Numquam,
-        dolores. Ipsa aut quidem enim sint cumque expedita cum deleniti ullam
-        aspernatur soluta maxime alias dolores maiores atque molestias,
-        voluptatum laborum. Blanditiis aliquam iusto adipisci odio aliquid
-        itaque, doloremque eos praesentium fuga sunt maxime nostrum atque
-        repellendus totam accusamus? Aspernatur pariatur laboriosam
-        reprehenderit! Rerum earum, veniam obcaecati, doloremque at repellendus
-        provident consectetur ipsam architecto ab non in nesciunt fugiat soluta?
-      </p>
-    </>
+      <section className="offer-section">
+        <div>
+          <div className="offers row px-2">
+            <div className="mx-auto mx-lg-0 offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
+              <img src="images/Vector.svg" alt="vector icon" />
+              <span className="d-inline-block ms-2">
+                World IT Day Event: Save Up to 50%
+              </span>
+            </div>
+            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
+              <img src="images/Vector.svg" alt="vector icon" />
+              <span className="d-inline-block ms-2">
+                World IT Day Event: Save Up to 50%
+              </span>
+            </div>
+            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
+              <img src="images/Vector.svg" alt="vector icon" />
+              <span className="d-inline-block ms-2">
+                World IT Day Event: Save Up to 50%
+              </span>
+            </div>
+            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
+              <img src="images/Vector.svg" alt="vector icon" />
+              <span className="d-inline-block ms-2">
+                World IT Day Event: Save Up to 50%
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="why-choose section-pt">
+        <div className="container">
+          <div className="section-title text-center">
+            <span>CASE STUDIES</span>
+            <h2>Why We Are the Top Choice?</h2>
+            <p>
+              "IT service providers work closely with clients, ensuring seamless
+              operations."IT service providers work closely with clients,
+              ensuring seamless operations.
+            </p>
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <div class="card border-0 rounded">
+                <div class="card-body">
+                  <p class="card-text mb-2">Feature-01</p>
+                  <h4 class="card-title">
+                    Highly Expert Team <br /> Members
+                  </h4>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
+                </div>
+                <img
+                  class="card-card-img-bottom p-3"
+                  src="images/why_choose/why_choose 1.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <div class="card border-0 rounded">
+                <div class="card-body">
+                  <p class="card-text mb-2">Feature-02</p>
+                  <h4 class="card-title">
+                    Fastest Customer <br /> Service
+                  </h4>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
+                </div>
+                <img
+                  class="card-card-img-bottom p-3"
+                  src="images/why_choose/why_choose 2.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto mx-lg-0">
+              <div class="card border-0 rounded">
+                <div class="card-body">
+                  <p class="card-text mb-2">Feature-03</p>
+                  <h4 class="card-title">
+                    Competitive Pricing <br /> For Service
+                  </h4>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
+                </div>
+                <img
+                  class="card-card-img-bottom p-3"
+                  src="images/why_choose/why_choose 3.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 };
 

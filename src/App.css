@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* for Header scrolled style start*/
+.header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+.header.scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* for Header scrolled style end*/
+
 .bg-primary {
   background-color: #0022fc !important;
 }
@@ -30,7 +45,49 @@ a {
   color: #333;
   font-weight: 400;
 }
+.section-pt {
+  padding-top: 6.25rem;
+}
+.section-title {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.section-title span {
+  font-size: 1.25rem;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section-title span::before {
+  content: "";
+  position: absolute;
+  right: -19px;
+  top: 4px;
+  width: 11.5px;
+  height: 11.5px;
+  background: #0022fc;
+  box-shadow: 0px 0px 20px 0px rgba(0, 34, 252, 0.5);
+}
+.section-title span::after {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: 4px;
+  width: 11.5px;
+  height: 11.5px;
+  background: #0022fc;
+  box-shadow: 0px 0px 20px 0px rgba(0, 34, 252, 0.5);
+}
+.section-title h2 {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+}
+.section-title p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.6875rem;
+}
 
+/* ================= main styles ========================= */
 .logo {
   color: #0022fc;
   font-size: 1.5rem;
@@ -47,7 +104,7 @@ a {
 .navbar-toggler {
   background-color: transparent;
   border: none;
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: #0022fc;
 }
 .navbar-toggler:focus {
@@ -56,7 +113,7 @@ a {
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .nav-link.active {
   color: #0022fc !important;
@@ -71,13 +128,13 @@ a {
 .loader {
   width: 40px;
   position: relative;
-  left: 10px;
+  left: 0.625rem;
 }
 
 /* hero styles */
 
 .welcome_msg-i {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .welcome_msg-i::before {
   content: "";
@@ -87,8 +144,8 @@ a {
   height: 8.6px;
   width: 8.6px;
   background-color: #0022fc;
-  transform: translateX(-3px);
-  transform: translateY(-3px);
+  transform: translateX(-2px);
+  transform: translateY(-2px);
 }
 .welcome_msg-i::after {
   content: "";
@@ -98,19 +155,19 @@ a {
   height: 8.6px;
   width: 8.6px;
   background-color: #031dca;
-  transform: translateX(3px);
+  transform: translateX(2px);
 }
 .welcomTxt {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .hero-heading {
-  font-style: 48px;
+  font-style: 3rem;
 
   margin: 20px 0;
   align-self: stretch;
 }
 .hero-para {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 0;
 }
 .explore-btn {
@@ -118,7 +175,7 @@ a {
   border-radius: 3px;
   background: #f4f9f4;
   padding: 12px 24px;
-  font-size: 18px;
+  font-size: 1.125rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .start-project {
@@ -129,7 +186,7 @@ a {
   border: none;
   background-color: #0022fc;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 1.125rem;
   padding: 12px 24px !important;
   display: inline;
   color: #f4f9f4;
@@ -140,7 +197,7 @@ a {
   margin-left: 35px;
 }
 .call-us a {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 8px;
 }
 .hero img {
@@ -167,9 +224,37 @@ a {
 .angle3 {
   left: -76px;
   bottom: 10px;
-  /* transform: rotate(34deg); */
 }
 .angle4 {
   right: -76px;
   bottom: 0;
+}
+/* offer section */
+.offer-section {
+  background-color: #fcffb2;
+  padding: 21px 0;
+}
+
+.offer img {
+  width: 20px;
+  height: 20px;
+}
+.offer span {
+  font-size: 1.125rem;
+}
+.offers {
+  max-width: 100%;
+  gap: 20px 0;
+}
+/* why choose section */
+.why-choose .card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.why-choose .card .card-text {
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem;
+}
+.why-choose .card-title {
+  font-size: 1.875rem;
+  margin-bottom: 1.25rem;
 }
