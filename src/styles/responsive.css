@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+  * img {
+    width: 100%;
+  }
   .navigation {
     box-shadow: var(--bs-box-shadow) !important;
   }

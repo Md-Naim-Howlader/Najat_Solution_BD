@@ -185,7 +185,7 @@ const Home = () => {
             <h2>Awesome Features</h2>
           </div>
           <div className="row mt-5">
-            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
               <div class="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
                 <div class="card-body p-0">
@@ -193,53 +193,72 @@ const Home = () => {
                   <p class="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
-                  <a className="text-primary fs-5" href="">
+                  <a className="text-primary fs-4 mt-2" href="">
                     <MdArrowOutward />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
               <div class="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
                 <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Technology Solution</h4>
+                  <h4 class="card-title ms-0">IT Management Service</h4>
                   <p class="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
-                  <a className="text-primary fs-5" href="">
+                  <a className="text-primary fs-4 mt-2" href="">
                     <MdArrowOutward />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
               <div class="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
                 <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Technology Solution</h4>
+                  <h4 class="card-title ms-0">Website & Mobile App Design</h4>
                   <p class="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
-                  <a className="text-primary fs-5" href="">
+                  <a className="text-primary fs-4 mt-2" href="">
                     <MdArrowOutward />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
               <div class="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
                 <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Technology Solution</h4>
+                  <h4 class="card-title ms-0">Data Tracking Security</h4>
                   <p class="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
-                  <a className="text-primary fs-5" href="">
+                  <a className="text-primary fs-4 mt-2" href="">
                     <MdArrowOutward />
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="team-members section-pt">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="before after">TEAM MEMBERS</span>
+            <h2>Our Top Skilled Experts</h2>
+          </div>
+          <div className="row mt-5 mx-auto mx-lg-0">
+            <div className="col-lg-4 mb-4 mb-lg-0">
+              <img src="images/team-member.png" alt="team member" />
+            </div>
+            <div className="col-lg-4 mb-4 mb-lg-0">
+              <img src="images/team-member.png" alt="team member" />
+            </div>
+            <div className="col-lg-4">
+              <img src="images/team-member.png" alt="team member" />
             </div>
           </div>
         </div>
