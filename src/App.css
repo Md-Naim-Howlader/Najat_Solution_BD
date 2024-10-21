@@ -267,3 +267,18 @@ a {
   font-size: 1.875rem;
   margin-bottom: 1.25rem;
 }
+
+/* our features */
+.our-features .card {
+  padding: 3.125rem;
+}
+.our-features .card img {
+  width: 5rem;
+  height: 5rem;
+}
+.our-features .card-title {
+  margin: 2.5rem 0;
+}
+.our-features .card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
