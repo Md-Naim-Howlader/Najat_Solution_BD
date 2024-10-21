@@ -44,6 +44,12 @@
   .section-title {
     max-width: 100%;
   }
+  .app-feature-section .section-title span {
+    font-size: 1.25rem;
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+  }
 }
 
 @media (max-width: 575px) {

@@ -82,7 +82,7 @@ const Home = () => {
       <section className="why-choose section-pt">
         <div className="container">
           <div className="section-title text-center">
-            <span>CASE STUDIES</span>
+            <span className="before after">CASE STUDIES</span>
             <h2>Why We Are the Top Choice?</h2>
             <p>
               "IT service providers work closely with clients, ensuring seamless
@@ -143,6 +143,34 @@ const Home = () => {
                   src="images/why_choose/why_choose 3.png"
                   alt="Title"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="app-feature-section section-pt">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <img
+                src="images/app-feature.png"
+                alt="application features images"
+              />
+            </div>
+            <div className="col-lg-6 mt-5 mt-lg-0">
+              <div className="section-title">
+                <span className="after">MORE ABOUT OUR COMPANY</span>
+                <h2>Our Application Features.</h2>
+                <p>
+                  IT service providers work closely with clients work clients to
+                  understand their unique needs and develop customized
+                </p>
+                <ul>
+                  <li>Amazing communication.</li>
+                  <li>Best trending designing experience.</li>
+                  <li>Email & Live chat.</li>
+                </ul>
+                <button className="btn btn-primary ">Contact Us</button>
               </div>
             </div>
           </div>
