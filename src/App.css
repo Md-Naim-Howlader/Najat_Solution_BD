@@ -66,21 +66,21 @@ a {
   position: relative;
   margin-bottom: 20px;
 }
-.section-title span.before::before {
+.section-title span.after::before {
   content: "";
   position: absolute;
   right: -19px;
-  top: 4px;
+  top: 6px;
   width: 11.5px;
   height: 11.5px;
   background: #0022fc;
   box-shadow: 0px 0px 20px 0px rgba(0, 34, 252, 0.5);
 }
-.section-title span.after::after {
+.section-title span.before::after {
   content: "";
   position: absolute;
   left: -19px;
-  top: 4px;
+  top: 6px;
   width: 11.5px;
   height: 11.5px;
   background: #0022fc;
@@ -284,4 +284,50 @@ a {
 }
 .our-features .card-title {
   font-size: 1.3rem;
+}
+.app-feature-section .section-title span {
+  left: 20px;
+}
+.app-feature-section .section-title {
+  margin: 0;
+}
+/* our company section */
+.our-company .section-title span {
+  left: 20px;
+}
+.progres-bar {
+  width: 100%;
+  height: 1.25rem;
+  padding: 7px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  background: #f4f9f4;
+}
+.our-company .section-title {
+  margin: 0;
+}
+.progres-bar .progres {
+  width: 62%;
+  height: 0.375rem;
+  background-color: #3840f7;
+  border-radius: 50px;
+}
+
+.progres-bar .progres.progress1 {
+  width: 62%;
+}
+.progres-bar .progres.progress2 {
+  width: 88%;
+}
+.progres-bar .progres.progress3 {
+  width: 90%;
+}
+.progress-info {
+  margin-bottom: 10px;
+}
+.progress-info span {
+  font-size: 0.875rem;
+}
+.progress-item {
+  margin-top: 37px;
 }
