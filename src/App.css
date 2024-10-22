@@ -425,15 +425,34 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #061430;
 }
-.have-any-question .contact-box h4,
-p,
-input,
-label {
-  color: #f4f9f4 !important;
+.white-yelow-text {
+  color: #f4f9f4;
 }
 .have-any-question .contact-box p {
   font-weight: 100 !important;
 }
 .have-any-question .section-title p {
   color: #333 !important;
+}
+
+/* Blog section */
+
+.blogs-section .blog-card {
+  padding: 30px 50px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.blogs-section .mt-20 {
+  margin: 20px 0;
+}
+.blogs-section .post-date .card-icon {
+  width: 20px;
+  color: #0022fc;
+}
+.blogs-section .post-date span {
+  display: inline-block;
+  font-weight: 300;
+  position: relative;
+  top: 3px;
+  left: 3px;
 }

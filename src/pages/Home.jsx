@@ -2,6 +2,9 @@ import { MdArrowOutward } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaFile } from "react-icons/fa";
+
 import { Nav } from "react-bootstrap";
 const Home = () => {
   return (
@@ -400,23 +403,31 @@ const Home = () => {
             <div className="col-lg-7 mt-3 mt-lg-0">
               <div className="contact-form">
                 <div className="  contact-box">
-                  <h4 className="mb-2">Fill The Contact Form</h4>
-                  <p>Feel free to contact with us, we don't spam your email</p>
+                  <h4 className="mb-2 white-yelow-text">
+                    Fill The Contact Form
+                  </h4>
+                  <p className="white-yelow-text">
+                    Feel free to contact with us, we don't spam your email
+                  </p>
                   <form className="mt-4">
                     <div className="row mb-2">
                       <div className="col-lg-6">
-                        <label htmlFor="name">Name</label>
+                        <label className="white-yelow-text" htmlFor="name">
+                          Name
+                        </label>
                         <input
-                          className="form-control form-control-lg"
+                          className="form-control white-yelow-text form-control-lg"
                           type="text"
                           name="name"
                           id="name"
                         />
                       </div>
                       <div className="col-lg-6">
-                        <label htmlFor="phone">Phone</label>
+                        <label className="white-yelow-text" htmlFor="phone">
+                          Phone
+                        </label>
                         <input
-                          className="form-control form-control-lg"
+                          className="form-control white-yelow-text form-control-lg"
                           type="tel"
                           name="phone"
                           id="phone"
@@ -425,18 +436,22 @@ const Home = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col-lg-6">
-                        <label htmlFor="email">Email</label>
+                        <label className="white-yelow-text" htmlFor="email">
+                          Email
+                        </label>
                         <input
-                          className="form-control form-control-lg"
+                          className="form-control white-yelow-text form-control-lg"
                           type="email"
                           name="email"
                           id="email"
                         />
                       </div>
                       <div className="col-lg-6">
-                        <label htmlFor="url">Website URL</label>
+                        <label className="white-yelow-text" htmlFor="url">
+                          Website URL
+                        </label>
                         <input
-                          className="form-control form-control-lg"
+                          className="form-control white-yelow-text form-control-lg"
                           type="url"
                           name="url"
                           id="url"
@@ -444,9 +459,11 @@ const Home = () => {
                       </div>
                     </div>
                     <div>
-                      <label htmlFor="message">Message</label>
+                      <label className="white-yelow-text" htmlFor="message">
+                        Message
+                      </label>
                       <textarea
-                        className="form-control form-control-lg"
+                        className="form-control form-control-lg white-yelow-text"
                         name="message"
                         id="message"
                       ></textarea>
@@ -457,6 +474,110 @@ const Home = () => {
                       value="Request a Quote"
                     />
                   </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="blogs-section section-pt">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="before after">BLOG UPDATES</span>
+            <h2>Latest News Posts</h2>
+          </div>
+          <div className="row mt-5 justify-content-around">
+            <div className="col-lg-4 blog-item">
+              <div class="card border-0 rounded blog-card h-100">
+                <img
+                  class="card-card-img-top "
+                  src="images/blog/blog-1.png"
+                  z
+                  alt="Title"
+                />
+                <div class="card-body p-0">
+                  <div className="post-date d-flex align-items-center mt-20">
+                    <div className="calender-date ">
+                      <FaCalendarAlt className="card-icon" />
+                      <span>June 4, 2023</span>
+                    </div>
+                    <div className="blog-type ms-4">
+                      <FaFile className="card-icon" />
+                      <span>It Service</span>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-20">
+                    Your Business Safe Ensure High Availability.
+                  </h4>
+                  <p class="mt-20 text-dark">
+                    We've been a strategy thought leader for nearly five decades
+                    and we bring But we ipsum dolor sit amet,...
+                  </p>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-4 mt-lg-0 blog-item">
+              <div class="card border-0 rounded blog-card h-100">
+                <img
+                  class="card-card-img-top "
+                  src="images/blog/blog-2.png"
+                  alt="Title"
+                />
+                <div class="card-body p-0">
+                  <div className="post-date d-flex align-items-center mt-20">
+                    <div className="calender-date ">
+                      <FaCalendarAlt className="card-icon" />
+                      <span>June 4, 2023</span>
+                    </div>
+                    <div className="blog-type ms-4">
+                      <FaFile className="card-icon" />
+                      <span>It Service</span>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-20">
+                    Data Backup and Recovery Best Practices Small
+                  </h4>
+                  <p class="mt-20 text-dark">
+                    We've been a strategy thought leader for nearly five decades
+                    and we bring But we ipsum dolor sit amet,...
+                  </p>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-4 mt-lg-0 blog-item">
+              <div class="card border-0 rounded blog-card h-100">
+                <img
+                  class="card-card-img-top "
+                  src="images/blog/blog-3.png"
+                  alt="Title"
+                />
+                <div class="card-body p-0">
+                  <div className="post-date d-flex align-items-center mt-20">
+                    <div className="calender-date ">
+                      <FaCalendarAlt className="card-icon" />
+                      <span>June 4, 2023</span>
+                    </div>
+                    <div className="blog-type ms-4">
+                      <FaFile className="card-icon" />
+                      <span>It Service</span>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-20">
+                    Small Business Disaster Recovery Planning
+                  </h4>
+                  <p class="mt-20 text-dark">
+                    We've been a strategy thought leader for nearly five decades
+                    and we bring But we ipsum dolor sit amet,...
+                  </p>
+                  <button className="btn btn-outline-primary">
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
