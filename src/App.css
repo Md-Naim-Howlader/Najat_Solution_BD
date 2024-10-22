@@ -10,6 +10,9 @@
   transition: all 0.3s ease;
   z-index: 100;
 }
+textarea {
+  resize: none;
+}
 .header.scrolled {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -49,6 +52,8 @@ h6,
 p,
 span,
 li,
+input,
+label,
 a {
   font-family: "Roboto", serif;
   color: #333;
@@ -330,4 +335,105 @@ a {
 }
 .progress-item {
   margin-top: 37px;
+}
+
+/* clients review section */
+.middle-client {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.client-info h3 {
+  font-size: 36px;
+  line-height: 54px;
+}
+.client-info p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 2.5rem 0;
+}
+.client-bio h4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.client-small-imgs {
+  position: relative;
+}
+
+.client-small-imgs .small-img-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.client-small-imgs .small-img-2 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.client-small-imgs .round-shape {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #f4ede3;
+  filter: blur(5px);
+}
+/* have any question section */
+.have-any-question .section-title {
+  margin: 0;
+}
+.have-any-question .section-title span {
+  left: 20px;
+}
+.have-any-question .flow-social {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+}
+.have-any-question .flow-social .social-icon {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  line-height: 30px !important;
+  background: rgba(183, 226, 225, 0.5);
+  border-radius: 2px;
+}
+.have-any-question .form-control {
+  border: none !important;
+  background-color: transparent !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 0 !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.have-any-question .contact-form {
+  padding: 37px 2.75rem;
+  border-radius: 5px;
+  background: #0c162f;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.have-any-question .contact-box {
+  padding: 1.875rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #061430;
+}
+.have-any-question .contact-box h4,
+p,
+input,
+label {
+  color: #f4f9f4 !important;
+}
+.have-any-question .contact-box p {
+  font-weight: 100 !important;
+}
+.have-any-question .section-title p {
+  color: #333 !important;
 }

@@ -1,5 +1,8 @@
 import { MdArrowOutward } from "react-icons/md";
-
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { Nav } from "react-bootstrap";
 const Home = () => {
   return (
     <div className="bg-default">
@@ -307,6 +310,155 @@ const Home = () => {
                 src="images/our-company.png"
                 alt="our company image"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="clients-review section-pt">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="before after">Clients Review</span>
+            <h2>People talk about us</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 mx-auto">
+              <img src="images/clients-review/Image 1.png" alt="client image" />
+            </div>
+
+            <div className="col-lg-6 text-center mt-4 mt-lg-0">
+              <div className="middle-client">
+                <img
+                  src="images/clients-review/Ellipse 2.png"
+                  alt="client image"
+                />
+                <div className="client-info">
+                  <h3>"Elit penatibus curae aucto"</h3>
+                  <p>
+                    Sem a penatibus varius dui nostra vehicula gravida congue,
+                    potenti etiam erat justo faucibUS fusce quis nulla eu,
+                    dignissim eget posuere blandit curabitur porta inceptos.
+                    Inceptos faucibus fringilla pharetra mi suscipit curabitu
+                  </p>
+                  <div className="client-bio">
+                    <h4>Selina khan</h4>
+                    <h4>Designer at (Montan_Agency)</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 mx-auto d-none d-lg-block client-small-imgs mt-4 mt-lg-0">
+              <div className="small-img-1">
+                <img
+                  src="images/clients-review/girls-laptop.png"
+                  alt="client image"
+                />
+              </div>
+
+              <div className="small-img-2">
+                <img
+                  src="images/clients-review/girls-look-sky.png"
+                  alt="client image"
+                />
+              </div>
+
+              <div className="round-shape"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="have-any-question section-pt">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="section-title">
+                <span className="before">HAVE ANY QUESTION</span>
+                <h2>We're Here to Help!</h2>
+                <p>
+                  If you have any questions, feel free to reach out. Whether
+                  it's a query about our services or just general information,
+                  we're ready to assist you.
+                </p>
+              </div>
+              <div className="flow-social">
+                <h4>Follow Us</h4>
+                <Nav>
+                  <Nav.Link className="p-0" href="www.facebook.com">
+                    <FaFacebook className="social-icon" />
+                  </Nav.Link>
+                  <Nav.Link className="p-0 ms-3" href="www.twiterX.com">
+                    <FaXTwitter className="social-icon" />
+                  </Nav.Link>
+                  <Nav.Link className="p-0 ms-3" href="www.instagram.com">
+                    <FaInstagram className="social-icon" />
+                  </Nav.Link>
+                </Nav>
+
+                <a href="www.google.map.com">Get Google Map Directions</a>
+              </div>
+            </div>
+            <div className="col-lg-7 mt-3 mt-lg-0">
+              <div className="contact-form">
+                <div className="  contact-box">
+                  <h4 className="mb-2">Fill The Contact Form</h4>
+                  <p>Feel free to contact with us, we don't spam your email</p>
+                  <form className="mt-4">
+                    <div className="row mb-2">
+                      <div className="col-lg-6">
+                        <label htmlFor="name">Name</label>
+                        <input
+                          className="form-control form-control-lg"
+                          type="text"
+                          name="name"
+                          id="name"
+                        />
+                      </div>
+                      <div className="col-lg-6">
+                        <label htmlFor="phone">Phone</label>
+                        <input
+                          className="form-control form-control-lg"
+                          type="tel"
+                          name="phone"
+                          id="phone"
+                        />
+                      </div>
+                    </div>
+                    <div className="row mb-2">
+                      <div className="col-lg-6">
+                        <label htmlFor="email">Email</label>
+                        <input
+                          className="form-control form-control-lg"
+                          type="email"
+                          name="email"
+                          id="email"
+                        />
+                      </div>
+                      <div className="col-lg-6">
+                        <label htmlFor="url">Website URL</label>
+                        <input
+                          className="form-control form-control-lg"
+                          type="url"
+                          name="url"
+                          id="url"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label htmlFor="message">Message</label>
+                      <textarea
+                        className="form-control form-control-lg"
+                        name="message"
+                        id="message"
+                      ></textarea>
+                    </div>
+                    <input
+                      className="btn btn-lg btn-primary mt-5"
+                      type="submit"
+                      value="Request a Quote"
+                    />
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
