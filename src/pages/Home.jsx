@@ -59,32 +59,35 @@ const Home = () => {
       </section>
       <section className="offer-section">
         <div>
-          <div className="offers row px-2">
-            <div className="mx-auto mx-lg-0 offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
-              <img src="images/Vector.svg" alt="vector icon" />
-              <span className="d-inline-block ms-2">
-                World IT Day Event: Save Up to 50%
-              </span>
+          <marquee direction="left" className="offers  px-2">
+            <div className="mx-auto mx-lg-0 offer d-flex offer align-items-center justify-content-between">
+              <div className="ps-4">
+                <img src="images/Vector.svg" alt="vector icon" />
+                <span className="d-inline-block ms-2">
+                  World IT Day Event: Save Up to 50%
+                </span>
+              </div>
+              <div>
+                <img src="images/Vector.svg" alt="vector icon" />
+                <span className="d-inline-block ms-2">
+                  World IT Day Event: Save Up to 50%
+                </span>
+              </div>
+
+              <div>
+                <img src="images/Vector.svg" alt="vector icon" />
+                <span className="d-inline-block ms-2">
+                  World IT Day Event: Save Up to 50%
+                </span>
+              </div>
+              <div>
+                <img src="images/Vector.svg" alt="vector icon" />
+                <span className="d-inline-block ms-2">
+                  World IT Day Event: Save Up to 50%
+                </span>
+              </div>
             </div>
-            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
-              <img src="images/Vector.svg" alt="vector icon" />
-              <span className="d-inline-block ms-2">
-                World IT Day Event: Save Up to 50%
-              </span>
-            </div>
-            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
-              <img src="images/Vector.svg" alt="vector icon" />
-              <span className="d-inline-block ms-2">
-                World IT Day Event: Save Up to 50%
-              </span>
-            </div>
-            <div className="d-none d-lg-block offer col-12  col-md-6 col-lg-3 offer d-flex align-items-center">
-              <img src="images/Vector.svg" alt="vector icon" />
-              <span className="d-inline-block ms-2">
-                World IT Day Event: Save Up to 50%
-              </span>
-            </div>
-          </div>
+          </marquee>
         </div>
       </section>
       <section className="why-choose section-pt">
