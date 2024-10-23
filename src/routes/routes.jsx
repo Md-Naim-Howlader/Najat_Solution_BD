@@ -4,9 +4,9 @@ import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services";
-import Blogs from "../pages/Blogs";
 import Careers from "../pages/Careers";
 import Contact from "../pages/Contact";
+import Blog from "../pages/Blog";
 
 const routes = createBrowserRouter([
   {
@@ -27,8 +27,9 @@ const routes = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: <Blogs />,
+        element: <Blog />,
       },
+
       {
         path: "/careers",
         element: <Careers />,

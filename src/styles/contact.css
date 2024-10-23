@@ -1,0 +1,53 @@
+.contact-icon-area {
+  border-radius: 5px;
+  background: #f4f9f4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+}
+.contact-us .item .icon {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: #eff1f5;
+  font-size: 1.5rem;
+}
+
+.contact-us .item .info {
+  margin-left: 1.875rem;
+}
+.contact-us .item .info h4 {
+  font-size: 1.25rem;
+}
+.contact-us .item .info p {
+  font-size: 1.125rem;
+  font-weight: 100;
+}
+.contact-container {
+  margin-top: 100px;
+  border-radius: 5px;
+  background: #eff1f5;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+}
+.contact-content .section-title {
+  max-width: 100%;
+}
+
+@media (max-width: 992px) {
+  .contact-icon-area {
+    padding: 30px;
+  }
+  .contact-container {
+    margin-top: 50px;
+    padding: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-icon-area {
+    padding: 20px;
+  }
+  .contact-container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+}

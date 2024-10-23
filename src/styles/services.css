@@ -1,0 +1,11 @@
+.service-item {
+  padding: 50px;
+  background: #f4f9f4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.service-item .card-title {
+  margin-bottom: 20px;
+}
+.service-item .card-text {
+  margin-bottom: 20px;
+}

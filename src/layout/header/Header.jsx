@@ -97,26 +97,26 @@ const Header = () => {
               <NavLink className="nav-link" to={"/about"}>
                 About Us
               </NavLink>
-              <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+
+              <NavDropdown id="basic-nav-dropdown" title="Services">
+                <NavLink className="dropdown-item mb-2" to={"/services"}>
                   IT Solutions
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                </NavLink>
+                <NavLink className="dropdown-item mb-2" to={"/services"}>
                   Web Design & Development
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                </NavLink>
+                <NavLink className="dropdown-item mb-2" to={"/services"}>
                   Digital Marketing
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                </NavLink>
+                <NavLink className="dropdown-item mb-2" to={"/services"}>
                   Graphics Design
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
+                </NavLink>
+                <NavLink className="dropdown-item mb-2" to={"/services"}>
                   E-learning
-                </NavDropdown.Item>
+                </NavLink>
               </NavDropdown>
               <NavLink className="nav-link" to={"/blog"}>
-                Blog
+                Blogs
               </NavLink>
               <NavLink className="nav-link" to={"careers"}>
                 Careers

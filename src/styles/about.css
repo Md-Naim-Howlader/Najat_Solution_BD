@@ -1,0 +1,10 @@
+.our-success .icon img {
+  max-width: 100px;
+}
+.counter-text h2 {
+  font-size: 3.75rem;
+}
+.counter-text p {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
