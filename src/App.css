@@ -19,6 +19,13 @@ textarea {
 a {
   text-decoration: none;
 }
+.dropdown-item {
+  transition: 0.2s;
+}
+.dropdown-item:hover {
+  background-color: #0022fc82;
+  color: #fff;
+}
 /* for Header scrolled style end*/
 * img {
   max-width: 100%;
