@@ -14,7 +14,6 @@ const Blogs = () => {
               <img
                 className="card-card-img-top "
                 src="images/blog/blog-1.png"
-                z
                 alt="Title"
               />
               <div className="card-body p-0">
