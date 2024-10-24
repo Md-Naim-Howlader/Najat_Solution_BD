@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import "./styles/preloader.css";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const handleLoad = () => setIsLoading(false);
