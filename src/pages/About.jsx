@@ -6,8 +6,10 @@ import ClientsReview from "../components/ClientsReview";
 
 const About = () => {
   useEffect(() => {
-    new PureCounter();
     document.title = "About Us | Najat Solution BD";
+    if (window.PureCounter) {
+      new window.PureCounter();
+    }
   }, []);
   return (
     <div className="bg-default">
@@ -78,6 +80,7 @@ const About = () => {
                     data-purecounter-duration="2"
                   ></span>
                 </h2>
+
                 <p>MEDIA ACTIVITIES</p>
               </div>
             </div>
@@ -110,6 +113,7 @@ const About = () => {
                     data-purecounter-end="999"
                     data-purecounter-duration="2"
                   ></span>
+
                   {"+"}
                 </h2>
                 <p>SKILLED EXPERTS</p>
