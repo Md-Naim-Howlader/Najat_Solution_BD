@@ -20,27 +20,27 @@ const Home = () => {
       <section className="offer-section">
         <div>
           <marquee direction="left" className="offers  px-2">
-            <div className="mx-auto mx-lg-0 offer d-flex offer align-items-center justify-content-between">
+            <div className="mx-auto mx-lg-0 offer d-flex gap-3 offer align-items-center ">
               <div className="ps-4">
                 <img src="images/Vector.svg" alt="vector icon" />
                 <span className="d-inline-block ms-2">
                   World IT Day Event: Save Up to 50%
                 </span>
               </div>
-              <div>
+              <div className="d-none d-md-block">
                 <img src="images/Vector.svg" alt="vector icon" />
                 <span className="d-inline-block ms-2">
                   World IT Day Event: Save Up to 50%
                 </span>
               </div>
 
-              <div>
+              <div className="d-none d-lg-block">
                 <img src="images/Vector.svg" alt="vector icon" />
                 <span className="d-inline-block ms-2">
                   World IT Day Event: Save Up to 50%
                 </span>
               </div>
-              <div>
+              <div className="d-none d-lg-block">
                 <img src="images/Vector.svg" alt="vector icon" />
                 <span className="d-inline-block ms-2">
                   World IT Day Event: Save Up to 50%
