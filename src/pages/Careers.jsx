@@ -1,5 +1,6 @@
-import { FaBagShopping, FaLocationDot } from "react-icons/fa6";
+import { FaBagShopping } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
+
 const Careers = () => {
   return (
     <div className="bg-default">

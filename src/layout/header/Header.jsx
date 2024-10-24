@@ -5,14 +5,14 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
-import { useFetch } from "../../hooks/useFetch";
-import Lang from "./Lang";
 import { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/Context";
 
+import Countries from "../../components/Countries";
+import Languages from "../../components/Languages";
+
 const Header = () => {
   const { toggle, setToggle } = useContext(Context);
-  const { isLoading, data } = useFetch("https://restcountries.com/v3.1/all");
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
@@ -30,6 +30,7 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <header className={isScrolled ? "header scrolled" : "header"}>
       <div className="header-top d-none d-lg-block bg-white">
@@ -56,17 +57,8 @@ const Header = () => {
             </p>
           </div>
           <div className="col-md-4  d-flex justify-content-end">
-            {isLoading && <img className="loader" src={"images/loader.gif"} />}
-            <Form.Select className="border-0 lang-select">
-              {data &&
-                data.map((country) => (
-                  <option key={country.name.common} value={country.name.common}>
-                    {country.name.common}
-                  </option>
-                ))}
-            </Form.Select>
-
-            <Lang />
+            <Countries />
+            <Languages />
           </div>
         </div>
       </div>
