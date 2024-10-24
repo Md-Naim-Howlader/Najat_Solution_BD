@@ -13,15 +13,15 @@ const Services = () => {
         <div className="container">
           <div className="row mt-5">
             <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div class="card border-0 rounded service-item">
-                <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+              <div className="card border-0 rounded service-item">
+                <div className="card-body m-0 p-0">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />
@@ -32,15 +32,15 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div class="card border-0 rounded service-item">
-                <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+              <div className="card border-0 rounded service-item">
+                <div className="card-body m-0 p-0">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />
@@ -51,15 +51,15 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div class="card border-0 rounded service-item">
-                <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+              <div className="card border-0 rounded service-item">
+                <div className="card-body m-0 p-0">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />
@@ -71,15 +71,15 @@ const Services = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 mt-4">
-              <div class="card border-0 rounded service-item">
-                <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+              <div className="card border-0 rounded service-item">
+                <div className="card-body m-0 p-0">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />
@@ -90,15 +90,15 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div class="card border-0 rounded service-item">
-                <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+              <div className="card border-0 rounded service-item">
+                <div className="card-body m-0 p-0">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />
@@ -109,15 +109,15 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div class="card border-0 rounded service-item">
+              <div className="card border-0 rounded service-item">
                 <div class="card-body m-0 p-0">
-                  <h4 class="card-title">Technology Solution</h4>
-                  <p class="card-text">
+                  <h4 className="card-title">Technology Solution</h4>
+                  <p className="card-text">
                     Work to ongoing support and maintenance. They may offer a
                     range of services, from project-based
                   </p>
                   <img
-                    class="card-card-img-bottom"
+                    className="card-card-img-bottom"
                     src="images/hands.png"
                     alt="services item"
                   />

@@ -63,10 +63,10 @@ const Home = () => {
           </div>
           <div className="row mt-5 ">
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div class="card border-0 rounded">
-                <div class="card-body">
-                  <p class="card-text mb-2">Feature-01</p>
-                  <h4 class="card-title">
+              <div className="card border-0 rounded">
+                <div className="card-body">
+                  <p className="card-text mb-2">Feature-01</p>
+                  <h4 className="card-title">
                     Highly Expert Team <br /> Members
                   </h4>
                   <button className="btn btn-outline-primary">
@@ -74,17 +74,17 @@ const Home = () => {
                   </button>
                 </div>
                 <img
-                  class="card-card-img-bottom p-3"
+                  className="card-card-img-bottom p-3"
                   src="images/why_choose/why_choose 1.png"
                   alt="Title"
                 />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div class="card border-0 rounded">
-                <div class="card-body">
-                  <p class="card-text mb-2">Feature-02</p>
-                  <h4 class="card-title">
+              <div className="card border-0 rounded">
+                <div className="card-body">
+                  <p className="card-text mb-2">Feature-02</p>
+                  <h4 className="card-title">
                     Fastest Customer <br /> Service
                   </h4>
                   <button className="btn btn-outline-primary">
@@ -92,17 +92,17 @@ const Home = () => {
                   </button>
                 </div>
                 <img
-                  class="card-card-img-bottom p-3"
+                  className="card-card-img-bottom p-3"
                   src="images/why_choose/why_choose 2.png"
                   alt="Title"
                 />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mx-auto mx-lg-0">
-              <div class="card border-0 rounded">
-                <div class="card-body">
-                  <p class="card-text mb-2">Feature-03</p>
-                  <h4 class="card-title">
+              <div className="card border-0 rounded">
+                <div className="card-body">
+                  <p className="card-text mb-2">Feature-03</p>
+                  <h4 className="card-title">
                     Competitive Pricing <br /> For Service
                   </h4>
                   <button className="btn btn-outline-primary">
@@ -110,7 +110,7 @@ const Home = () => {
                   </button>
                 </div>
                 <img
-                  class="card-card-img-bottom p-3"
+                  className="card-card-img-bottom p-3"
                   src="images/why_choose/why_choose 3.png"
                   alt="Title"
                 />
@@ -155,11 +155,11 @@ const Home = () => {
           </div>
           <div className="row mt-5">
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
-              <div class="card border-0  rounded">
+              <div className="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
-                <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Technology Solution</h4>
-                  <p class="card-text">
+                <div className="card-body p-0">
+                  <h4 className="card-title ms-0">Technology Solution</h4>
+                  <p className="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
                   <a className="text-primary fs-4 mt-2" href="">
@@ -169,11 +169,11 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
-              <div class="card border-0  rounded">
+              <div className="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
-                <div class="card-body p-0">
-                  <h4 class="card-title ms-0">IT Management Service</h4>
-                  <p class="card-text">
+                <div className="card-body p-0">
+                  <h4 className="card-title ms-0">IT Management Service</h4>
+                  <p className="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
                   <a className="text-primary fs-4 mt-2" href="">
@@ -183,11 +183,13 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
-              <div class="card border-0  rounded">
+              <div className="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
-                <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Website & Mobile App Design</h4>
-                  <p class="card-text">
+                <div className="card-body p-0">
+                  <h4 className="card-title ms-0">
+                    Website & Mobile App Design
+                  </h4>
+                  <p className="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
                   <a className="text-primary fs-4 mt-2" href="">
@@ -197,11 +199,11 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0 h-h-100">
-              <div class="card border-0  rounded">
+              <div className="card border-0  rounded">
                 <img src="images/idea.png" alt="idea icon" />
-                <div class="card-body p-0">
-                  <h4 class="card-title ms-0">Data Tracking Security</h4>
-                  <p class="card-text">
+                <div className="card-body p-0">
+                  <h4 className="card-title ms-0">Data Tracking Security</h4>
+                  <p className="card-text">
                     Developing a comprehensive IT strategy that aligns.
                   </p>
                   <a className="text-primary fs-4 mt-2" href="">
