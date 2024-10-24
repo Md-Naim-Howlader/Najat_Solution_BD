@@ -11,10 +11,11 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => setIsLoading(false);
-    window.addEventListener("load", handleLoad);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
 
-    return () => window.removeEventListener("load", handleLoad);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
