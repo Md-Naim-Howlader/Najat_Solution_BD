@@ -9,13 +9,14 @@ import "./styles/preloader.css";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
 
-    return () => clearTimeout(timer);
+  useEffect(() => {
+    const handleLoad = () => setIsLoading(false);
+    window.addEventListener("load", handleLoad);
+
+    return () => window.removeEventListener("load", handleLoad);
   }, []);
+
   return (
     <div>
       {isLoading ? (
