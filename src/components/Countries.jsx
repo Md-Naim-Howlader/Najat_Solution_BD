@@ -1,26 +1,9 @@
-import { useState } from "react";
-import useFetch from "../hooks/useFetch";
-import Select from "react-select";
+import React, { useState } from "react";
+import { useCountries } from "../hooks/useCountries";
+import Select from "react-select"; // Correct path
 
 const Countries = () => {
-  const { data, loading } = useFetch("https://restcountries.com/v3.1/all");
-  // Sort languages alphabetically by name
-  const sortedCountries = data.sort((a, b) =>
-    a.name.common.localeCompare(b.name.common)
-  );
-  const countryOptions = sortedCountries.map((country) => ({
-    value: country.cca2,
-    label: (
-      <div>
-        <img
-          src={country.flags.svg}
-          alt={country.name.common}
-          style={{ width: "20px", marginRight: "10px" }}
-        />
-        {country.name.common}
-      </div>
-    ),
-  }));
+  const { countries, countryLoading } = useCountries();
   // Default selections
   const [selectedCountry, setSelectedCountry] = useState({
     value: "BD",
@@ -28,6 +11,7 @@ const Countries = () => {
       <div>
         <img
           src="https://flagcdn.com/w320/bd.png"
+          alt="Bangladesh"
           style={{ width: "20px", marginRight: "10px" }}
         />
         Bangladesh
@@ -61,19 +45,13 @@ const Countries = () => {
     }),
   };
   return (
-    <div className="z-2 position-relative">
-      {loading && (
-        <img
-          className="loader"
-          style={{ left: "0" }}
-          src={"images/loader.gif"}
-        />
-      )}
+    <div>
+      {countryLoading && <img className="loader" src={"images/loader.gif"} />}
 
       <Select
         value={selectedCountry}
         onChange={setSelectedCountry}
-        options={countryOptions}
+        options={countries}
         styles={customStyles}
       />
     </div>
